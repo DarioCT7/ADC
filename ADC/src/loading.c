@@ -9,7 +9,7 @@ char* animacion[] = {"o0o", "0o0", "o0o", "0o0"};
 char signosinv[] = {'|'};
 
 
-//esta funciones es  solo para que se pueda ingresar simbolos prueba
+//esta funciones es  solo para que se pueda ingresar simbolos prueba verificar
 void ingresarSimbolos(char *entrada) {
     int longitud, esValida;
     do {
