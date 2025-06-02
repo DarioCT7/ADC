@@ -2,10 +2,10 @@
 
 void mostrarProductos() {
     printf("Te muestro los productos disponibles y sus precios:\n\n");
-    printf("*Chicle.........10 centavos\n");
-    printf("*Helado.........25 centavos\n");
-    printf("*Gaseosa........75 centavos\n");
-    printf("*Salchipapa.....100 centavos-dolar\n");
+    printf("*Chicle........10 centavos\n");
+    printf("*Helado........25 centavos\n");
+    printf("*Gaseosa.......75 centavos\n");
+    printf("*Salchipapa....100 centavos-dolar\n");
 }
 int verificarMonto(int monto) {
     if (monto >= 100) return 4;
