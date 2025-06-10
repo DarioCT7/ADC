@@ -33,7 +33,7 @@ int eliminarArchivo(const char *pathFile) {
 }
 
 int main() {
-    const char *pathFile = "../../datafile/Alumnos.txt";
+    const char *pathFile = "../datafile/Alumnos.txt";
     
     if (escribirArchivo(pathFile, "Hola, a todos ....!")== OK) {
         leerArchivo(pathFile);
